@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/bin/macaddr.sh:system/bin/macaddr.sh \
-     vendor/xiaomi/mocha/proprietary/bin/run_ss_status.sh:system/bin/run_ss_status.sh \
     vendor/xiaomi/mocha/proprietary/etc/bluetooth/bdaddr:system/etc/bluetooth/bdaddr \
     vendor/xiaomi/mocha/proprietary/etc/firmware/BCM4350C0.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4350C0.hcd \
     vendor/xiaomi/mocha/proprietary/etc/firmware/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd.bin\
