@@ -16,9 +16,9 @@ LOCAL_PATH := $(call my-dir)
 
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := brave
+LOCAL_MODULE := browser
 LOCAL_MODULE_OWNER := xiaoMI
-LOCAL_SRC_FILES := brave/brave.apk
+LOCAL_SRC_FILES := browser/browser.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
