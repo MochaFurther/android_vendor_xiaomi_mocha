@@ -17,11 +17,11 @@
 PRODUCT_PACKAGES += \
     browser \
     omniswitch \
-    toogle-omniswitch \
-    poco
+    
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/bin/macaddr.sh:system/vendor/bin/macaddr.sh \
+    vendor/xiaomi/mocha/proprietary/bin/ussrd:$(TARGET_COPY_OUT_VENDOR)/bin/ussrd \
     vendor/xiaomi/mocha/proprietary/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/mocha/proprietary/etc/firmware/BCM4350C0.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4350C0.hcd \
     vendor/xiaomi/mocha/proprietary/etc/firmware/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd.bin\
@@ -218,10 +218,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libussrd.so:system/vendor/lib/libussrd.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libwfd_common.so:system/vendor/lib/libwfd_common.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libwfd_sink.so:system/vendor/lib/libwfd_sink.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libwfd_source.so:system/vendor/lib/libwfd_source.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libwfd_source.so:system$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libwfd_source.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvRSCompiler.so:system/vendor/lib/libnvRSCompiler.so \
 vendor/xiaomi/mocha/proprietary/vendor/lib/libnvRSDriver.so:system/vendor/lib/libnvRSDriver.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libw.so:system/vendor/lib/libw.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_ui.so:system/vendor/lib/libgov_ui.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libaffinitydaemon.so:system/vendor/lib/libaffinitydaemon.so \
+    
