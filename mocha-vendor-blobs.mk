@@ -17,7 +17,10 @@
 PRODUCT_PACKAGES += \
     browser \
     omniswitch \
-    SimpleKeyboard
+    SimpleKeyboard \
+    aurora \
+    auroradroid \
+    gallery
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/bin/macaddr.sh:system/vendor/bin/macaddr.sh \
