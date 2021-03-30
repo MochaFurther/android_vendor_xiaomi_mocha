@@ -26,8 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/bin/macaddr.sh:system/vendor/bin/macaddr.sh \
     vendor/xiaomi/mocha/proprietary/bin/ussrd:$(TARGET_COPY_OUT_VENDOR)/bin/ussrd \
     vendor/xiaomi/mocha/proprietary/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/xiaomi/mocha/proprietary/etc/a2dp_module_deviceports.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_module_deviceports.xml \
-    vendor/xiaomi/mocha/proprietary/etc/a2dp_module_mixports.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_module_mixports.xml\
     vendor/xiaomi/mocha/proprietary/etc/firmware/BCM4350C0.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4350C0.hcd \
     vendor/xiaomi/mocha/proprietary/etc/firmware/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd.bin\
     vendor/xiaomi/mocha/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd_apsta.bin \
